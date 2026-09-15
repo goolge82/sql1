@@ -3,7 +3,7 @@ use charan;
 select * from emp;
 
 
-select avg(sal) from emp;
+select avg(sal) from emp  where deptno=20;
 select sum(sal) from emp;
 select max(sal) from emp;
 select min(sal) from emp;
